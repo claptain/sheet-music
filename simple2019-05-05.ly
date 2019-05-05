@@ -1,8 +1,11 @@
 \version "2.18.2"
 
 \score {
+  \autoBeamOff
   \relative c' {
-    c4
+    \clef bass
+    c,4 |
+    d
   }
 
   \midi{}
