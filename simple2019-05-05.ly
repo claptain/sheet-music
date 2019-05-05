@@ -3,13 +3,13 @@
 
 \score {
   
-  \transpose d e {
+  \transpose c cs {
     <<
     
       \relative c' {
       
         \clef bass
-        \repeat unfold 5 {
+        \repeat unfold 8 {
         c,4 d e f  %m1
         %m2
         }
