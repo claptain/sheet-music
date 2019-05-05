@@ -8,10 +8,11 @@
 
 \score {
   \relative c' <<
-  \new Staff {
-
-  %\time 3/4
-  \tempo 4=120
+   %\time 3/4
+  {
+\tempo 4= 120
+  \new Staff 
+ 
 
   %\clef "bass"  
   %\key d \major
