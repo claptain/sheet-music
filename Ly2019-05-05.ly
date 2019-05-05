@@ -7,11 +7,14 @@
 }
 
 \score {
-  \relative c' <<
-   %\time 3/4
+  \relative c' 
+  
+   <<
+   \time 3/4
+ 
   {
-\tempo 4= 120
-  \new Staff 
+   \tempo 4= 180
+   
  
 
   %\clef "bass"  
