@@ -13,9 +13,12 @@
 
   %\clef "bass"  
   %\key d \major
-    c  (d e )  r _"text"
+  <<
+    {c  (d e )  r _"text"
     r1
-    c4 d e
+    c4 d e}
+    {c}
+  >>
   }
 
   \layout {}
