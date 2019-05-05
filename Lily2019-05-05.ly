@@ -10,6 +10,7 @@
     \tempo 4=120
 
     %\clef "bass"
+    \key d \major
 		c' d e 
         r r2
 	
