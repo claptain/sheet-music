@@ -1,3 +1,8 @@
-\midi
-\layout
-{c}
+\score{
+	{
+		c'
+	}
+
+	\layout{}
+	\midi{}
+}
