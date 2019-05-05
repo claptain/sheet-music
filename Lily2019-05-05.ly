@@ -1,6 +1,7 @@
 \score{
+\relative
 	{
-		c'
+		c' d e
 	}
 
 	\layout{}
