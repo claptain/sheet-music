@@ -8,23 +8,26 @@
 
 \score {
   \relative c' <<{
+
   %\time 3/4
   \tempo 4=120
 
   %\clef "bass"  
   %\key d \major
   
-    {c  (d e )  r _"text"
+   
+    c  (d e )  r _"text"
     r1
-    c4 d e}
+    c4 d e
     
   }
 
-  % sequence #2
+ \new Staff 
   {
   c
   }
   >>
+  
 
   \layout {}
   \midi {}
