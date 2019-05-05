@@ -6,9 +6,10 @@
 \relative
 
 	{
+    \time 3/4
     \tempo 4=120
-		c' d e r
-        r1
+		c' d e 
+        r r2
 	
 		c'4 d e
 	}
