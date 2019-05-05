@@ -7,13 +7,13 @@
 }
 
 \score {
-  \relative c' {
+  \relative c {
     \new PianoStaff <<
     
       \new Staff {
         \tempo 4= 60
         
-        \clef treble
+        \clef bass
         %\key d \major
 
 
