@@ -4,6 +4,7 @@
 \header {
   title = "Untitled"
   composer = "Composer"
+  test
 }
 
 \score {
