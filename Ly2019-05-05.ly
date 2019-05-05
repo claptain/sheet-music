@@ -12,8 +12,7 @@
       \new Staff {
         \time 3/4
         \tempo 4= 180
-        \clef "treble" 
-
+        \clef treble
         %\key d \major
 
 
@@ -23,7 +22,7 @@
       }
     
       \new Staff {
-        \clef "bass" 
+        \clef "bass"
         c
       }
 
