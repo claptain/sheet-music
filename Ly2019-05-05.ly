@@ -13,7 +13,7 @@
 
   %\clef "bass"  
   %\key d \major
-    c~ d e r
+    c (d e) r
     r1
     c4 d e
   }
