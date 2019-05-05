@@ -6,29 +6,28 @@
   composer = "Composer"
 }
 
-  \score {
+\score {
   \relative c' {
-  \new PianoStaff <<
-  \new Staff
+    \new PianoStaff <<
+      \new Staff {
+        \time 3/4
+        \tempo 4= 180
+        \clef "treble" 
 
-  {
-  \time 3/4
-  \tempo 4= 180
-  \clef "treble" 
-
-  %\key d \major
+        %\key d \major
 
 
-  c  (d e )  r _"text"
-  r1
-  c4 d e
+        c (d e )  r _"text"
+        r1
+        c4 d e
+      }
+    
+      \new Staff {
+        \clef "bass" 
+        c
+      }
 
-  }
-  {\clef "bass" 
-  c
-  }
-
-  >>  
+    >>  
   }
     
 
