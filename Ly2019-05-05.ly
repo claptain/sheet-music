@@ -7,9 +7,11 @@
 }
 
 \score {
+
+  
   \relative c {
+  
     \new PianoStaff <<
-    
       \new Staff {
         \tempo 4= 120
         
@@ -17,21 +19,28 @@
         %\key d \major
 
 
-        c (d e )  r _"text"
+        c (d4 e )  r _"text"
         r1
         c'4 d e
+
+        
+        
         \time 3/4
         
       }
-    
+      \addlyrics {
+        measure 
+        lyrics measure
+      }
       \new Staff {
         \clef bass
         %<c, e g>1
       }
       
-
-    >>  
+    >>
+      
   }
+  
     
 
   \layout {}
