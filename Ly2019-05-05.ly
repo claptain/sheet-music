@@ -19,9 +19,9 @@
 
         c (d e )  r _"text"
         r1
-        c4 d e
+        c'4 d e
         \time 3/4
-        \clef alto
+        
       }
     
       \new Staff {
