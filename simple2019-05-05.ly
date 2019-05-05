@@ -6,11 +6,11 @@
   \relative c' {
     
     \clef bass
-    c,4   %m1
-    d  %m2
+    c,4 d e f | g  %m1
+      %m2
   }
   \addlyrics {
-    _ testing &
+    _ test - ing &
   } 
 
   >>
