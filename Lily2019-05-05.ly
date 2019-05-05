@@ -13,7 +13,7 @@
 		c' d e r 
         r1
 	
-		c'4 d e
+		c'4 d e %this moves an octave up
 	}
 
 	\layout{}
