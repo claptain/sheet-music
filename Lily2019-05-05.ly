@@ -6,8 +6,10 @@
 \relative
 
 	{
-    \time 3/4
+    %\time 3/4
     \tempo 4=120
+
+    %\clef "bass"
 		c' d e 
         r r2
 	
