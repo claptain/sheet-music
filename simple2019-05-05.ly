@@ -3,10 +3,10 @@
 \score {
   
   <<
-  \relative c' {
+  \relative d' {
     
     \clef bass
-    \repeat unfold 10 {
+    \repeat unfold 100 {
     c,4 d e f  %m1
       %m2
       }
