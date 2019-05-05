@@ -26,7 +26,7 @@
     
       \new Staff {
         \clef bass
-        <c, e g>1
+        %<c, e g>1
       }
       
 
