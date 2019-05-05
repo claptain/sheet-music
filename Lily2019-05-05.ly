@@ -1,1 +1,3 @@
+\midi
+\layout
 {c}
