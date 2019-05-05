@@ -11,7 +11,7 @@
     \new PianoStaff <<
     
       \new Staff {
-        \tempo 4= 180
+        \tempo 4= 60
         
         \clef treble
         %\key d \major
