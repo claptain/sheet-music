@@ -6,8 +6,10 @@
   \relative c' {
     
     \clef bass
-    c,4 d e f | g  %m1
+    \repeat unfold 10 {
+    c,4 d e f  %m1
       %m2
+      }
   }
   \addlyrics {
     _ test - ing &
