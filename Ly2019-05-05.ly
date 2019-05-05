@@ -10,9 +10,9 @@
   \relative c' {
     \new PianoStaff <<
       \new Staff {
-        \time 3/4
+        %\time 4/4
         \tempo 4= 180
-        \clef treble
+        \clef "treble"
         %\key d \major
 
 
@@ -23,7 +23,7 @@
     
       \new Staff {
         \clef "bass"
-        c
+        <c, e g>1
       }
 
     >>  
