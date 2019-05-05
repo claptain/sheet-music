@@ -3,22 +3,24 @@
 
 \score {
   
-  <<
-  transpose d e{
-    \relative c' {
+  \transpose d e {
+    <<
     
-      \clef bass
-      \repeat unfold 5 {
-      c,4 d e f  %m1
-      %m2
+      \relative c' {
+      
+        \clef bass
+        \repeat unfold 5 {
+        c,4 d e f  %m1
+        %m2
+        }
       }
-    }
-  }
-  \addlyrics {
-    _ test - ing &
-  } 
+    
+      \addlyrics {
+        _ test - ing &
+      } 
 
-  >>
+    >>
+  }
   
 
   \midi{}
