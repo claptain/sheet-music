@@ -7,7 +7,8 @@
 }
 
 \score {
-  \relative c' <<{
+  \relative c' <<
+  \new Staff {
 
   %\time 3/4
   \tempo 4=120
