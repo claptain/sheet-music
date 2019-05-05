@@ -4,8 +4,9 @@
 \score{
 
 \relative
-\tempo 4=120
+
 	{
+    \tempo 4=120
 		c' d e r
         r1
 	
