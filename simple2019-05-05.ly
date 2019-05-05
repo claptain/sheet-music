@@ -7,7 +7,7 @@
   \relative c' {
     \key g \major
     \clef bass
-    \repeat unfold 100 {
+    \repeat unfold 5 {
     c,4 d e f  %m1
       %m2
       }
