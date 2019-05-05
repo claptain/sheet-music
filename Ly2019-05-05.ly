@@ -7,19 +7,24 @@
 }
 
 \score {
-  \relative c' {
+  \relative c' <<{
   %\time 3/4
   \tempo 4=120
 
   %\clef "bass"  
   %\key d \major
-  <<
+  
     {c  (d e )  r _"text"
     r1
     c4 d e}
-    {c}
-  >>
+    
   }
+
+  % sequence #2
+  {
+  c
+  }
+  >>
 
   \layout {}
   \midi {}
