@@ -3,13 +3,14 @@
 
 \score {
   
-  \transpose c c {
+  \transpose c a, {
     <<
     
       \relative c' {
-        \key c \major %affects
+        
         \clef bass
         \repeat unfold 2 {
+        \key c \major %affects
          c,4 d e f g a b c 
          c b a g f e d c  \break
   
