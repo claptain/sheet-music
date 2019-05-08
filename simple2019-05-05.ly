@@ -15,11 +15,11 @@
   
         \key cs \major %affects
         cs ds es fs gs as bs cs 
-        cs bs as gs fs es ds cs
+        cs bs as gs fs es ds cs \break
 
          \key d \major %affects
-         d e f g a b c d
-         d c b a g f e d 
+         d e fs g a b cs d
+         d cs b a g fs e d 
         }
         
       }
