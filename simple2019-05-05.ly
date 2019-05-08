@@ -3,7 +3,7 @@
 
 \score {
   
-  \transpose c a, {
+  \transpose c c {
     <<
     
       \relative c' {
@@ -13,7 +13,9 @@
          c,4 d e f g a b c 
          c b a g f e d c
   
-
+        \key cs \major %affects
+        cs ds es fs gs as bs cs 
+        cs bs as gs fs es ds cs
         }
         
       }
