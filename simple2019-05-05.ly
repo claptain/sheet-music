@@ -9,17 +9,12 @@
       \relative c' {
         %\key c \major %affects
         \clef bass
-        \repeat unfold 8 {
-         c,4 d e f 
-         g a b c 
-         b a g f 
-         e d  
+        \repeat unfold 1 {
+         c,4 d e f g a b c 
+         c b a g f e d c
 
-         e f g a
-         b c d e
-         d c b a
-         g f
-
+         d e f g a b c d
+         d c b a g f e d
 
         }
         
