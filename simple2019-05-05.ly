@@ -9,7 +9,7 @@
       \relative c' {
         \key c \major %affects
         \clef bass
-        \repeat unfold 1 {
+        \repeat unfold 2 {
          c,4 d e f g a b c 
          c b a g f e d c  \break
   
