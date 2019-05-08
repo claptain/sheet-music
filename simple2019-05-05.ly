@@ -13,7 +13,7 @@
          c,4 d e f 
          g a b c 
          b a g f 
-         e d c b %m1
+         e d  %m1
         %m2
         }
       }
