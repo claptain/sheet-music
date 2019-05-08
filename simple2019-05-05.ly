@@ -11,7 +11,9 @@
         \clef bass
         \repeat unfold 8 {
          c,4 d e f 
-         g a b c %m1
+         g a b c 
+         b a g f 
+         e d c b %m1
         %m2
         }
       }
