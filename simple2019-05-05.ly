@@ -16,6 +16,10 @@
         \key cs \major %affects
         cs ds es fs gs as bs cs 
         cs bs as gs fs es ds cs
+
+         \key d \major %affects
+         d e f g a b c d
+         d c b a g f e d 
         }
         
       }
