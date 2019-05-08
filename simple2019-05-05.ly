@@ -3,7 +3,7 @@
 
 \score {
   
-  \transpose c c {
+  \transpose c b, {
     <<
     
       \relative c' {
@@ -18,10 +18,12 @@
         }
       }
     
+     
       \addlyrics {
        | _ _ _ _ | _ _ _ _ | 
         _ test - ing &
       } 
+      
 
     >>
   }
