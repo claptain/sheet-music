@@ -3,11 +3,11 @@
 
 \score {
   
-  \transpose c b, {
+  \transpose c c {
     <<
     
       \relative c' {
-      
+        \key bf \major
         \clef bass
         \repeat unfold 8 {
          c,4 d e f 
