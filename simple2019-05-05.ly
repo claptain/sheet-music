@@ -3,7 +3,7 @@
 
 \score {
   
-  \transpose c d {
+  \transpose c cs {
     <<
     
       \relative c' {
