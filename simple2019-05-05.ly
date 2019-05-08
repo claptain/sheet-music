@@ -11,7 +11,7 @@
         \clef bass
         \repeat unfold 1 {
          c,4 d e f g a b c 
-         c b a g f e d c
+         c b a g f e d c  \break
   
         \key cs \major %affects
         cs ds es fs gs as bs cs 
@@ -19,7 +19,11 @@
 
          \key d \major %affects
          d e fs g a b cs d
-         d cs b a g fs e d 
+         d cs b a g fs e d   \break
+
+         \key cs \major %affects
+        cs ds es fs gs as bs cs 
+        cs bs as gs fs es ds cs
         }
         
       }
