@@ -7,7 +7,7 @@
     <<
     
       \relative c' {
-        \key c \major %affects
+        %\key c \major %affects
         \clef bass
         \repeat unfold 8 {
          c,4 d e f 
