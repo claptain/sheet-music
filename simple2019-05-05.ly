@@ -13,9 +13,16 @@
          c,4 d e f 
          g a b c 
          b a g f 
-         e d  %m1
-        %m2
+         e d  
+
+         e f g a
+         b c d e
+         d c b a
+         g f
+
+
         }
+        
       }
     
      
