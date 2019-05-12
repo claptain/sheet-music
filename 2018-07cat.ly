@@ -20,10 +20,10 @@
     r r r 
     \repeat unfold 8{ %
     fs'8 gs    
-    as cs, fs as
-    as4
-    gs8 fs gs cs
-    cs cs cs4 
+    as cs, fs as as4
+
+    gs8 fs 
+    gs cs cs cs cs4 
 }
 
   }
