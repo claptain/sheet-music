@@ -8,26 +8,35 @@
 
 
  \transpose b b,, { %
-   \clef bass %
-  
-  \relative c' {
+    \clef bass %
+    
+    <<
+    \relative c' {
   
 
-  \key b \major
-  \tempo 4=90 %115
+      \key b \major
+      \tempo 4=90 %115
 
-  
-    r r r 
-    \repeat unfold 8{ %
-    fs'8 gs    
-    as cs, fs as as4
+    
+      r r r 
+      \repeat unfold 8{ %
+      fs'8 gs    
+      as cs, fs as as4
 
-    gs8 fs 
-    gs cs cs cs cs4 
-}
+      gs8 fs 
+      gs cs cs cs cs4 
+      }
+
+    }
+    \lyricmode {
+      _ _ _
+      s l
+      
+    }
+    >>
 
   }
-  }
+  
 
   \layout {}
   \midi {}
