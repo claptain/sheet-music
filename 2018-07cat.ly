@@ -14,8 +14,8 @@
     \relative c' {
   
 
-      \key b \major
-      \tempo 4=70 %115
+      \key fs \major
+      \tempo 4=115 %115
 
     
       r r r 
@@ -27,10 +27,10 @@
       gs cs cs cs cs4 
 
 
-      fs,8 e 
+      fs,8 es
       fs fs fs fs fs4
       e8 fs
-      e fs e ds cs4
+      es fs e ds cs4
       cs8 cs
       ds ds ds ds ds4
       cs8 as 
