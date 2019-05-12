@@ -7,7 +7,7 @@
 \score {
 
 
- \transpose b c { %
+ \transpose b b { %
     \clef treble %
     
     <<
@@ -19,12 +19,25 @@
 
     
       r r r 
-      \repeat unfold 8{ %
+      \repeat unfold 1{ %
       fs'8 gs    
-      as cs, fs as as4
-
+      as cs, fs as as4 
+      
       gs8 fs 
       gs cs cs cs cs4 
+
+
+      fs,8 e 
+      fs fs fs fs fs4
+      e8 fs
+      e fs e ds cs4
+      cs8 cs
+      ds ds ds ds ds4
+      cs8 as 
+      cs as cs gs' fs4.
+      cs8 
+      as' as as b cs gs gs 
+      
       }
 
     }
