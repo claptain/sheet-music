@@ -8,7 +8,7 @@
 
 
  \transpose b c, {
-  \clef bass
+   \clef bass
  
   \relative c' {
   
