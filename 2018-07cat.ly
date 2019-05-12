@@ -7,7 +7,7 @@
 \score {
 
 
- \transpose b b { %
+ \transpose b b, { %
    %\clef bass %
   
   \relative c' {
@@ -18,7 +18,7 @@
 
   
     r r r 
-    \repeat unfold 1{ %
+    \repeat unfold 4{ %
     fs'8 gs    
     as cs, fs as
     as4
