@@ -14,7 +14,7 @@
   
 
   \key b \major
-  \tempo 4=115 %115
+  \tempo 4=90 %115
 
   
     r r r 
