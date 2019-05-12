@@ -28,9 +28,20 @@
       }
 
     }
-    \lyricmode {
-      _ _ _
-      s l
+
+    %s l
+    %t r, s t t
+    \addlyrics {
+      
+      
+
+      m f 
+      s t, m s s
+      f m
+      f t t t t
+
+
+
       
     }
     >>
