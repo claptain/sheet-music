@@ -7,15 +7,15 @@
 \score {
 
 
- \transpose b b,, { %
-    \clef bass %
+ \transpose b c { %
+    \clef treble %
     
     <<
     \relative c' {
   
 
       \key b \major
-      \tempo 4=90 %115
+      \tempo 4=70 %115
 
     
       r r r 
@@ -36,7 +36,7 @@
     \addlyrics {
       
       
-
+      
       m f 
       s t, m s s
       f m
