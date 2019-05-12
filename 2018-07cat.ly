@@ -7,8 +7,8 @@
 \score {
 
 
- \transpose b c, { %
-   \clef bass %
+ \transpose b b { %
+   %\clef bass %
   
   \relative c' {
   
@@ -16,11 +16,14 @@
   \key b \major
   \tempo 4=115
 
-  \repeat unfold 4{ %
+  
     r r r 
-    
+    \repeat unfold 1{ %
     fs'8 gs    
     as cs, fs as
+    as4
+    gs8 fs gs cs
+    cs cs cs4
 }
 
   }
