@@ -18,12 +18,12 @@
 
   
     r r r 
-    \repeat unfold 4{ %
+    \repeat unfold 8{ %
     fs'8 gs    
     as cs, fs as
     as4
     gs8 fs gs cs
-    cs cs cs4
+    cs cs cs4 
 }
 
   }
