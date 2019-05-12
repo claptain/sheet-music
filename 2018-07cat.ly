@@ -8,7 +8,7 @@
 
 
  \transpose fs c, { %
-    \clef treble %
+    \clef bass %
     
     <<
     \relative c' {
