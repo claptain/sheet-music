@@ -7,17 +7,19 @@
 \score {
 
 
-  
+ \transpose b c, {
+  \clef bass
+ 
   \relative c' {
   
 
   \key b \major
   \tempo 4=115
-    r r r fs'8 gs
-
-    
+    r r r fs'8 gs    
     as cs, fs as
 
+
+  }
   }
 
   \layout {}
