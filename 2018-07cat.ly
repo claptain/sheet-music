@@ -15,11 +15,11 @@
   
 
       \key fs \major
-      \tempo 4=70 %115
+      \tempo 4=115 %115
 
     
       r r r 
-      \repeat unfold 1{ %
+      \repeat unfold 10{ %
       fs'8 gs    
       as cs, fs as as4 
       
