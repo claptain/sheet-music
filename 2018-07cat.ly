@@ -36,8 +36,9 @@
       cs8 as 
       cs as cs gs' fs4.
       cs8 
-      as' as as b cs gs gs 
-      
+      as' as as b cs gs gs as
+      <cs, gs'>4. <cs gs'>8~ <cs gs'>8 <cs gs'>4.
+
       }
 
     }
