@@ -7,8 +7,8 @@
 \score {
 
 
- \transpose b b, { %
-   %\clef bass %
+ \transpose b b,, { %
+   \clef bass %
   
   \relative c' {
   
