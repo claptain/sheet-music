@@ -7,7 +7,7 @@
 \score {
 
 
- \transpose fs c { %
+ \transpose fs f, { %f,
     \clef treble %
     
     <<
