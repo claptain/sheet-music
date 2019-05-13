@@ -15,7 +15,7 @@
   
 
       \key fs \major
-      \tempo 4=115 %115
+      \tempo 4=70 %115
 
     
       r r r 
