@@ -13,7 +13,7 @@
     c8 c c c ~ c4 r8 e
     a g a g~ g4 
     g8 g |
-    a4 c c8 c d c
+    a4 c, c8 c d c
     e g4 e8~ e4 r 
     }
 
