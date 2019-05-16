@@ -8,6 +8,7 @@
   \transpose c as{ %as
   \relative c' {
     \key c \major
+    \tempo 4=84
     
     c8 c c c ~ c4 r8 e
     a g a g~ g4 
