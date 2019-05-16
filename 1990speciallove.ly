@@ -11,6 +11,7 @@
     \clef bass
     \tempo 4=84
     
+    \repeat unfold 10{
     c'8 c c c ~ c4 r8 e,
     a g a g~ g4 
     g8 g |
@@ -21,6 +22,7 @@
     a g a g r g a g
     a4 c c8 c a g
     a4 g2.~ | g1
+    }
 
     }
 
