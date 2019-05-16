@@ -5,9 +5,10 @@
 \language english
 
 \score {
-  \transpose c as{ %as
+  \transpose c c,{ %as
   \relative c' {
     \key c \major
+    \clef bass
     \tempo 4=84
     
     c'8 c c c ~ c4 r8 e,
