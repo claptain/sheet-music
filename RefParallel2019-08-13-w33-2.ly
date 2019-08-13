@@ -17,6 +17,9 @@
   \new Staff << \voiceA \\ \voiceB >>
   \new Staff { \clef bass \voiceC }
 >>
+\score{
+
 
 \layout{}
 \midi{}
+}
