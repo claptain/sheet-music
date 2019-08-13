@@ -7,6 +7,10 @@ metronome = \drummode{
  hh hh hh hh
 }
 \score {
+  \new StaffGroup <<
+
+
+
   \transpose c c,{ %as
 
   
@@ -35,6 +39,11 @@ metronome = \drummode{
 
 
   }
+
+  \drums \repeat unfold 10{\metronome
+
+  }
+  >>
 
   \layout {}
   \midi {}
