@@ -6,7 +6,7 @@
 
 
 \score {
-  \drums {
+  \drums { %\new DrumStaff \drummode {
   hihat4 hh bassdrum bd
 }
 
