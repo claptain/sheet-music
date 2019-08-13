@@ -17,8 +17,8 @@ metronome = \drummode{
  hh hh hh hh |
 }
 
-repeatTimes = 10
-%60s/84 beats * 9 bars*4 beats per bar*10 times
+repeatTimes = 100
+%60s/84 beats * 9 bars*4 beats per bar*10 times = 0.7 * 360
 
 \score {
   \new StaffGroup <<
