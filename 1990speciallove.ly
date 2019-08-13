@@ -4,8 +4,14 @@
 }
 \language english
 metronome = \drummode{
- hh hh hh hh
+ hh hh hh hh |
+ hh hh hh hh |
+ hh hh hh hh |
+ hh hh hh hh |
 }
+
+repeatTimes = 10
+
 \score {
   \new StaffGroup <<
 
@@ -20,7 +26,7 @@ metronome = \drummode{
     \tempo 4=84
     
     
-    \repeat unfold 10{
+    \repeat unfold \repeatTimes {
     c'8 c c c ~ c4 r8 e,
     a g a g~ g4 
     g8 g |
@@ -40,8 +46,7 @@ metronome = \drummode{
 
   }
 
-  \drums \repeat unfold 10{\metronome
-
+  \drums {\repeat unfold \repeatTimes \metronome
   }
   >>
 
