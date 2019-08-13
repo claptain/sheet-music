@@ -32,7 +32,7 @@ down = \drummode {
 
 
 \new DrumStaff <<
-  \new DrumVoice { \voiceOne \metronome }
+  \repeat unfold 4 \new DrumVoice { \voiceOne \metronome }
   %\new DrumVoice { \voiceTwo \down }
 >>
 
