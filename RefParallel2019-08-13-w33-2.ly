@@ -18,3 +18,5 @@
   \new Staff { \clef bass \voiceC }
 >>
 
+\layout{}
+\midi{}
