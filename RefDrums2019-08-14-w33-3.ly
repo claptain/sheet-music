@@ -4,7 +4,7 @@
 }
 
 metronome = \drummode{
- crashcymbal4 hh hh hh
+ sn hh hh hh
 }
 
 up = \drummode {
