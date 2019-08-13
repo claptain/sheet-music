@@ -8,6 +8,10 @@ metronome = \drummode{
  hh hh hh hh |
  sn hh hh hh |
  hh hh hh hh |
+ crashcymbal hh hh hh |
+ hh hh hh hh |
+ sn hh hh hh |
+ hh hh hh hh |
  hh hh hh hh |
 }
 
