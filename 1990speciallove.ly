@@ -3,13 +3,18 @@
   composer = "2019-05-17 w20-5 0:29am 13'"
 }
 \language english
-
+metronome = \drummode{
+ hh hh hh hh
+}
 \score {
   \transpose c c,{ %as
+
+  
   \relative c' {
     \key c \major
     \clef bass
     \tempo 4=84
+    
     
     \repeat unfold 10{
     c'8 c c c ~ c4 r8 e,
@@ -23,6 +28,7 @@
     a4 c c8 c a g
     a4 g2.~ | g1
     }
+
 
     }
 
