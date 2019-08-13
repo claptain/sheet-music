@@ -3,6 +3,10 @@
   composer = "Composer"
 }
 
+metronome = \drummode{
+ crashcymbal4 hh hh hh
+}
+
 up = \drummode {
   crashcymbal4 hihat8 halfopenhihat hh hh hh openhihat
 }
@@ -28,8 +32,8 @@ down = \drummode {
 
 
 \new DrumStaff <<
-  \new DrumVoice { \voiceOne \up }
-  \new DrumVoice { \voiceTwo \down }
+  \new DrumVoice { \voiceOne \metronome }
+  %\new DrumVoice { \voiceTwo \down }
 >>
 
   \layout {}
