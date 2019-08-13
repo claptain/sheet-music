@@ -1,3 +1,7 @@
+global = {
+  \key g \major
+  \time 2/4
+}
 
 \parallelMusic  voiceA {
   % Bar 1
@@ -40,7 +44,7 @@
 
 \score{
 \new StaffGroup <<
-  \new Staff << \voiceA \\ \voiceB >>
+  \new Staff \global << \voiceA \\ \voiceB >>
   \new Staff { \clef bass \voiceC }
 >>
 
