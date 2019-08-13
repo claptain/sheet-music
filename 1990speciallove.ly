@@ -4,9 +4,9 @@
 }
 \language english
 metronome = \drummode{
+ cymc hh hh hh |
  hh hh hh hh |
- hh hh hh hh |
- hh hh hh hh |
+ sn hh hh hh |
  hh hh hh hh |
 }
 
