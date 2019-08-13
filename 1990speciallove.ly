@@ -8,6 +8,7 @@ metronome = \drummode{
  hh hh hh hh |
  sn hh hh hh |
  hh hh hh hh |
+ hh hh hh hh |
 }
 
 repeatTimes = 10
