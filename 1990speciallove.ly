@@ -49,7 +49,7 @@ repeatTimes = 100
   \transpose c c,{ %as
 
   %2019/08/15 w32/4 11:52am
-  \new Staff \with {midiInstrument = #"acoustic guitar (steel)"}
+  %\new Staff \with {midiInstrument = #"acoustic guitar (steel)"}
  % \new Staff \with {midiInstrument = #"overdriven guitar"}
   %\new Staff \with {midiInstrument = #"flute"}
 
