@@ -38,7 +38,7 @@ brokenChord =  \transpose c c' {
       0.9
       (default-dynamic-absolute-volume dynamic)))
 
-repeatTimes = 10
+repeatTimes = 100
 %60s/84 beats * 9 bars*4 beats per bar*10 times = 0.7 * 360
 
 \score {
