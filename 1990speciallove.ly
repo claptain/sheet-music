@@ -53,7 +53,7 @@ repeatTimes = 10
  % \new Staff \with {midiInstrument = #"overdriven guitar"}
   %\new Staff \with {midiInstrument = #"flute"}
 
-  \set Score.dynamicAbsoluteVolumeFunction = #myDynamics
+ % \set Score.dynamicAbsoluteVolumeFunction = #myDynamics
   \relative c' {
     \key c \major
     \clef bass
