@@ -60,7 +60,7 @@ repeatTimes = 100
     \tempo 4=84
     
     
-    \repeat volta \repeatTimes {
+    \repeat percent \repeatTimes {
     c'8 c c c ~ c4 r8 e,|
     a g a g~ g4 
 
@@ -86,7 +86,7 @@ repeatTimes = 100
 
   }
 
-  \drums {\repeat volta \repeatTimes \metronome}
+  \drums {\repeat percent \repeatTimes \metronome}
   
   %\new Staff {\repeat unfold \repeatTimes \brokenChord}
   >>
