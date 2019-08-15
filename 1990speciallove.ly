@@ -60,7 +60,7 @@ repeatTimes = 10
     \tempo 4=84
     
     
-    \repeat unfold \repeatTimes {
+    \repeat volta \repeatTimes {
     c'8 c c c ~ c4 r8 e,|
     a g a g~ g4 
 
@@ -71,7 +71,7 @@ repeatTimes = 10
     c'8 c c c ~ c4 r8 e,| 
     a g a g r g a g
     a4 c c8 c a g
-    a4 g2.~ | %g1 |
+    a4 g2.%~ | g1 |
      \break
 
    
@@ -86,7 +86,7 @@ repeatTimes = 10
 
   }
 
-  \drums {\repeat unfold \repeatTimes \metronome}
+  \drums {\repeat volta \repeatTimes \metronome}
   
   %\new Staff {\repeat unfold \repeatTimes \brokenChord}
   >>
