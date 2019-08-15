@@ -14,7 +14,7 @@ metronome = \drummode{
  tri hh hh hh |
  sn hh hh hh |
  tri hh hh hh |
- hh hh hh hh |
+ tri hh hh hh |
 
  
 
