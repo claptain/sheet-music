@@ -22,7 +22,15 @@ metronome = \drummode{
 }
 
 brokenChord =  {
- 
+  c e g c |
+  c e g c |
+  c e g c |
+  c e g c |
+  c e g c |
+  c e g c |
+  c e g c |
+  c e g c |
+   c e g c |
 }
 
 repeatTimes = 10
@@ -72,6 +80,7 @@ repeatTimes = 10
 
   \drums {\repeat unfold \repeatTimes \metronome}
   
+  \new Staff {\repeat unfold \repeatTimes \brokenchord}
   >>
 
   \layout {}
