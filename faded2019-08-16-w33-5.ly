@@ -5,8 +5,9 @@
 \language english
 \score {
   
+  \repeat unfold 20{
 <<
-
+% 2019/08/16 w33/5 7:32am done first 4 bars
   \relative c' { \key fs \major
   \tempo 4=92
     fs fs fs as |
@@ -39,6 +40,8 @@
 
 
   >>
+
+  }
 
   \layout {}
   \midi {}
