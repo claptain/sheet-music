@@ -21,7 +21,7 @@ metronome = \drummode{
 
 }
 
-brokenChord = \心 {
+brokenChord =  {
  
 }
 
