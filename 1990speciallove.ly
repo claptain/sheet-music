@@ -9,11 +9,11 @@ metronome = \drummode{
  crashcymbal hh hh hh |
  rb hh hh hh |
  sn hh hh hh |
- hh hh hh hh |
+ cb hh hh hh |
  cymc hh hh hh |
- hh hh hh hh |
+ rb hh hh hh |
  sn hh hh hh |
- hh hh hh hh |
+ cb hh hh hh |
  hh hh hh hh |
 
  
