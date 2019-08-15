@@ -60,7 +60,7 @@ repeatTimes = 10
     \tempo 4=84
     
     
-    \repeat unfold \repeatTimes {
+    \repeat volta \repeatTimes {
     c'8 c c c ~ c4 r8 e,|
     a g a g~ g4 
 
