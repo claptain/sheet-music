@@ -33,7 +33,7 @@
 
     cs gs es gs
     cs gs
-    e4 |
+    es4 |
 
   }
 
