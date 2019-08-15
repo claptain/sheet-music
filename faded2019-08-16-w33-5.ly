@@ -17,13 +17,17 @@
 
   \relative c { \key fs \major
   \clef bass
+  
     ds8 as' fs as 
     \octaveCheck c
     ds8 as' fs as |
 
     \octaveCheck c  
     b fs b fs  
-    b fs b fs 
+    b fs b fs |
+
+\octaveCheck c  
+    fs cs' fs, cs'
     
 
   }
