@@ -4,8 +4,9 @@
 }
 
 \score {
+  \key fis \major
   \relative c' {
-    c4
+    f
   }
 
   \layout {}
