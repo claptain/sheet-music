@@ -7,14 +7,14 @@
 %2019/08/14 w33/3 3:45am
 metronome = \drummode{
  crashcymbal hh hh hh |
- tri hh hh hh |
+ hh hh hh hh |
  sn hh hh hh |
- tri hh hh hh |
+ hh hh hh hh |
  cymc hh hh hh |
- tri hh hh hh |
+ hh hh hh hh |
  sn hh hh hh |
- tri hh hh hh |
- tri hh hh hh |
+ hh hh hh hh |
+ hh hh hh hh |
 
  
 
