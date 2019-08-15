@@ -31,7 +31,7 @@ repeatTimes = 10
 
   \transpose c c,{ %as
 
-  
+  \new Staff \with {midiInstrument = #"violin"}
   \relative c' {
     \key c \major
     \clef bass
