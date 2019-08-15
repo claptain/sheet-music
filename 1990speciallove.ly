@@ -21,7 +21,7 @@ metronome = \drummode{
 
 }
 
-brokenChord =  \relative c' {
+brokenChord =  \transpose c c' {
   c e g c |
   c e g c |
   c e g c |
