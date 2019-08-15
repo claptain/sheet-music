@@ -30,7 +30,7 @@ brokenChord =  \transpose c c' {
   c e g e |
   c e g e |
   c e g e |
-   c e g e |
+  % c e g e |
 }
 
 #(define (myDynamics dynamic)
@@ -71,7 +71,8 @@ repeatTimes = 10
     c'8 c c c ~ c4 r8 e,| 
     a g a g r g a g
     a4 c c8 c a g
-    a4 g2.~ | g1 | \break
+    a4 g2.~ | %g1 |
+     \break
 
    
 
