@@ -7,13 +7,13 @@
 %2019/08/14 w33/3 3:45am
 metronome = \drummode{
  crashcymbal hh hh hh |
- hc hh hh hh |
+ tri hh hh hh |
  sn hh hh hh |
- hc hh hh hh |
+ tri hh hh hh |
  cymc hh hh hh |
- hc hh hh hh |
+ tri hh hh hh |
  sn hh hh hh |
- hc hh hh hh |
+ tri hh hh hh |
  hh hh hh hh |
 
  
@@ -32,7 +32,7 @@ repeatTimes = 10
   \transpose c c,{ %as
 
   %2019/08/15 w32/4 11:52am
-  \new Staff \with {midiInstrument = #"violin"}
+  %\new Staff \with {midiInstrument = #"violin"}
   \relative c' {
     \key c \major
     \clef bass
