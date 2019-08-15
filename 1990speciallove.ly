@@ -38,7 +38,7 @@ brokenChord =  \transpose c c' {
       0.9
       (default-dynamic-absolute-volume dynamic)))
 
-repeatTimes = 100
+repeatTimes = 10
 %60s/84 beats * 9 bars*4 beats per bar*10 times = 0.7 * 360
 
 \score {
@@ -60,7 +60,7 @@ repeatTimes = 100
     \tempo 4=84
     
     
-    \repeat percent \repeatTimes {
+    \repeat unfold \repeatTimes {
     c'8 c c c ~ c4 r8 e,|
     a g a g~ g4 
 
@@ -86,7 +86,7 @@ repeatTimes = 100
 
   }
 
-  \drums {\repeat percent \repeatTimes \metronome}
+  \drums {\repeat unfold \repeatTimes \metronome}
   
   %\new Staff {\repeat unfold \repeatTimes \brokenChord}
   >>
