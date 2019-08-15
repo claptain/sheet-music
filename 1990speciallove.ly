@@ -63,7 +63,7 @@ repeatTimes = 10
 
   }
 
-  %\drums {\repeat unfold \repeatTimes \metronome}
+  \drums {\repeat unfold \repeatTimes \metronome}
   
   >>
 
