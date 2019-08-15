@@ -4,8 +4,10 @@
 }
 \language english
 \score {
-  \tempo 4=92
+  
+
   \relative c' { \key fs \major
+  \tempo 4=92
     fs fs fs as |
     ds ds ds cs |
 
