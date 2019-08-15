@@ -80,7 +80,7 @@ repeatTimes = 10
 
   \drums {\repeat unfold \repeatTimes \metronome}
   
-  \new Staff {\repeat unfold \repeatTimes \brokenchord}
+  \new Staff {\repeat unfold \repeatTimes \brokenChord}
   >>
 
   \layout {}
