@@ -33,6 +33,11 @@ brokenChord =  \transpose c c' {
    c e g c |
 }
 
+#(define (myDynamics dynamic)
+    (if (equal? dynamic "rfz")
+      0.9
+      (default-dynamic-absolute-volume dynamic)))
+
 repeatTimes = 10
 %60s/84 beats * 9 bars*4 beats per bar*10 times = 0.7 * 360
 
@@ -47,6 +52,8 @@ repeatTimes = 10
   \new Staff \with {midiInstrument = #"acoustic guitar (steel)"}
  % \new Staff \with {midiInstrument = #"overdriven guitar"}
   %\new Staff \with {midiInstrument = #"flute"}
+
+  \set Score.dynamicAbsoluteVolumeFunction = #myDynamics
   \relative c' {
     \key c \major
     \clef bass
