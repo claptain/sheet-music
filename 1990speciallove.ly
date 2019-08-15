@@ -22,15 +22,15 @@ metronome = \drummode{
 }
 
 brokenChord =  \transpose c c' {
-  c e g c |
-  c e g c |
-  c e g c |
-  c e g c |
-  c e g c |
-  c e g c |
-  c e g c |
-  c e g c |
-   c e g c |
+  c e g e |
+  c e g e |
+  c e g e |
+  c e g e |
+  c e g e |
+  c e g e |
+  c e g e |
+  c e g e |
+   c e g e |
 }
 
 #(define (myDynamics dynamic)
