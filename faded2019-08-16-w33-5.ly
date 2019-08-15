@@ -15,12 +15,11 @@
     es es es ds
   }
 
-  \relative c' { \key fs \major
+  \relative c { \key fs \major
   \clef bass
-    fs fs fs as |
-    ds ds ds cs |
-    as as as as|
-    es es es ds
+    ds8 as' fs as |
+    
+
   }
 
 
