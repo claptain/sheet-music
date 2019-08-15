@@ -29,7 +29,11 @@
 
     %\octaveCheck c  
     fs cs' fs cs'
-    
+    fs cs' fs cs' |
+
+    cs gs es gs
+    cs gs
+    e4 |
 
   }
 
