@@ -32,7 +32,7 @@ repeatTimes = 10
   \transpose c c,{ %as
 
   %2019/08/15 w32/4 11:52am
-  \new Staff \with {midiInstrument = #"acoustic guitar (steel)"}
+  \new Staff \with {midiInstrument = #"electric guitar (jazz)"}
   \relative c' {
     \key c \major
     \clef bass
