@@ -16,6 +16,16 @@ metronome = \drummode{
  hh hh hh hh |
  hh hh hh hh |
 
+  crashcymbal hh hh hh |
+ hh hh hh hh |
+ sn hh hh hh |
+ hh hh hh hh |
+ crashcymbal hh hh hh |
+ hh hh hh hh |
+ sn hh hh hh |
+ hh hh hh hh |
+ hh hh hh hh |
+
 
 }
 
@@ -37,6 +47,18 @@ repeatTimes = 10
     
     
     \repeat unfold \repeatTimes {
+    c'8 c c c ~ c4 r8 e,|
+    a g a g~ g4 
+
+    g8 g |
+    a4 c, c8 c d c|
+    e g4 e8~ e4 r | \break
+
+    c'8 c c c ~ c4 r8 e,| 
+    a g a g r g a g
+    a4 c c8 c a g
+    a4 g2.~ | g1 | \break
+
     c'8 c c c ~ c4 r8 e,|
     a g a g~ g4 
 
