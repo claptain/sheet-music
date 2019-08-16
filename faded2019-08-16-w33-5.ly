@@ -19,9 +19,7 @@
   
     \repeat unfold 2 {ds8 as fs as}  | \repeat unfold 2 { b fs b fs} |
 
-    %\octaveCheck c  
-    fs cs' fs cs'
-    fs cs' fs cs' |
+    \repeat unfold 2 {fs cs' fs cs'} |
 
     cs gs es gs
     cs gs
