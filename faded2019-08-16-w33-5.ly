@@ -10,20 +10,14 @@
 % 2019/08/16 w33/5 7:32am done first 4 bars
    { \key fs \major
   \tempo 4=92
-    fs' fs' fs' as' | ds'' ds'' ds'' cs' | as' as' as' as'| es' es' es' ds'
+    fs' fs' fs' as' | ds'' ds'' ds'' cs'' | as' as' as' as'| es' es' es' ds'
   }
 
   %\relative c
    { \key fs \major
   \clef bass
   
-    ds8 as fs as 
-    %\octaveCheck c
-    ds8 as fs as |
-
-    %\octaveCheck c  
-    b fs b fs  
-    b fs b fs |
+    \repeat unfold 2 {ds8 as fs as}  | \repeat unfold 2 { b fs b fs} |
 
     %\octaveCheck c  
     fs cs' fs cs'
