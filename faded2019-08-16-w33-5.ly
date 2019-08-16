@@ -25,7 +25,7 @@
 
   %\relative c
    { \key ds \minor
-  \clef bass
+  %\clef bass
    
     \repeat unfold 2 {ds8 as fs as}  | %broken <ds fs as>: l d' m' where l d' gives minor
     \repeat unfold 2 { b fs b fs} | % fs appears centrally (as d): f d as perfect 4th
