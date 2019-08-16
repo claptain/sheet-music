@@ -9,7 +9,7 @@
   \repeat unfold 20{
 <<
 % 2019/08/16 w33/5 7:32am done first 4 bars
-   { \key fs \major
+   \key ds \minor
   \tempo 4=92
   %\clef bass
     fs' fs' fs' as' | 
@@ -19,7 +19,7 @@
   }
 
   %\relative c
-   { \key fs \major
+   { \key ds \minor
   \clef bass
    
     \repeat unfold 2 {ds8 as fs as}  | %broken <ds fs as> 
