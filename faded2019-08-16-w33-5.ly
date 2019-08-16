@@ -5,11 +5,13 @@
 \language english
 \score {
   
+  \transpose fs fs,{
   \repeat unfold 20{
 <<
 % 2019/08/16 w33/5 7:32am done first 4 bars
    { \key fs \major
   \tempo 4=92
+  \clef bass
     fs' fs' fs' as' | 
     ds'' ds'' ds'' cs'' | 
     as' as' as' as'| 
@@ -31,6 +33,7 @@
 
 
   >>
+  }
 
   }
 
