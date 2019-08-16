@@ -22,7 +22,7 @@
    { \key ds \minor
   \clef bass
    
-    \repeat unfold 2 {ds8 as fs as}  | %broken <ds fs as> 
+    \repeat unfold 2 {ds8 as fs as}  | %broken <ds fs as>: l d' m' where l d' gives minor
     \repeat unfold 2 { b fs b fs} | % fs appears centrally
     \repeat unfold 2 {fs cs' fs cs'} | 
     cs gs es gs 
