@@ -5,7 +5,7 @@
 \language english
 \score {
   
-  \transpose ds b,{
+  \transpose ds a,{
   \repeat unfold 20{
 <<
 % 2019/08/16 w33/5 7:32am done first 4 bars
