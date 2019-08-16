@@ -11,6 +11,8 @@
   \repeat unfold 20{
 <<
 % 2019/08/16 w33/5 7:32am done first 4 bars
+
+ \transpose a a,{
   { \key ds \minor
   \tempo 4=92
   %\clef bass
@@ -18,6 +20,7 @@
     ds'' ds'' ds'' cs'' | 
     as' as' as' as'| 
     es' es' es' ds' |
+  }
   }
 
   %\relative c
