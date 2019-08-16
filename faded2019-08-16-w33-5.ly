@@ -15,7 +15,7 @@
  \transpose a a,{
   { \key ds \minor
   \tempo 4=92
-  %\clef bass
+  \clef bass
     fs' fs' fs' as' | 
     ds'' ds'' ds'' cs'' | 
     as' as' as' as'| 
