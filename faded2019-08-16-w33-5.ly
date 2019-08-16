@@ -12,7 +12,7 @@
 <<
 % 2019/08/16 w33/5 7:32am done first 4 bars
 
- \transpose a a,{
+ \transpose a a{
   { \key ds \minor
   \tempo 4=92
   \clef bass
