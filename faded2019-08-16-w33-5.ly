@@ -5,7 +5,9 @@
 \language english
 \score {
   
-  \transpose ds a,{
+  \transpose ds a,{ %key a for simplicity
+  %key b to avoid unsingable g, (on lowest line of clef bass)
+
   \repeat unfold 20{
 <<
 % 2019/08/16 w33/5 7:32am done first 4 bars
