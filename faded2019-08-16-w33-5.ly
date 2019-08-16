@@ -16,8 +16,8 @@
   { \key ds \minor
   \tempo 4=92
   %\clef bass
-    fs' fs' fs' as' | 
-    ds'' ds'' ds'' cs'' | 
+    fs' fs' fs' as' | %d d d m
+    ds'' ds'' ds'' cs'' | %l l l s: la as highlight
     as' as' as' as'| 
     es' es' es' ds' |
   }
