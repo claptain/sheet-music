@@ -23,8 +23,8 @@
   \clef bass
    
     \repeat unfold 2 {ds8 as fs as}  | %broken <ds fs as>: l d' m' where l d' gives minor
-    \repeat unfold 2 { b fs b fs} | % fs appears centrally
-    \repeat unfold 2 {fs cs' fs cs'} | 
+    \repeat unfold 2 { b fs b fs} | % fs appears centrally (as d): f d as perfect 4th
+    \repeat unfold 2 {fs cs' fs cs'} | % d s as perfect 5th
     cs gs es gs %broken <cs es gs>
     cs gs
     es4 |
