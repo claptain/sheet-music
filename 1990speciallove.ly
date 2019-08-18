@@ -4,7 +4,7 @@
 }
 \language english
 
-repeatTimes = 1
+repeatTimes = 10
 %60s/84 beats * 9 bars*4 beats per bar*10 times = 0.7 * 360
 
 %2019/08/14 w33/3 3:45am
