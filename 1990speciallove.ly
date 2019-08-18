@@ -7,6 +7,11 @@
 repeatTimes = 16
 %60s/84 beats * 9 bars*4 beats per bar*10 times = 0.7 * 360
 
+setOne = {
+\key c \major
+    \clef bass
+    \tempo 4=84
+}
 melodyOne = {
 c'8 c' c' c' ~ c'4 r8 e|
     a g a g~ g4 
@@ -81,12 +86,12 @@ brokenChord =  \transpose c c' {
    
    \transpose c c{
   {
-   \key c \major
-    \clef bass
-    \tempo 4=84
-  \repeat unfold \repeatTimes 
+   \setOne
+  \repeat unfold \repeatTimes {
     \melodyOne \break
     \melodyTwo \break
+
+    }
 
     }
   
