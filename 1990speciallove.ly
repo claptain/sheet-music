@@ -8,10 +8,7 @@ repeatTimes = 16
 %60s/84 beats * 9 bars*4 beats per bar*10 times = 0.7 * 360
 
 melody =  \transpose c c{
-    \key c \major
-    \clef bass
-    \tempo 4=84
-    
+   
     
     
     c'8 c' c' c' ~ c'4 r8 e|
@@ -26,12 +23,6 @@ melody =  \transpose c c{
     a4 c' c'8 c' a g
     a4 g2.%~ | g1 |
     % \break
-
-  
-
-    
-    
-
 
     }
 
@@ -91,7 +82,11 @@ brokenChord =  \transpose c c' {
  % \set Score.dynamicAbsoluteVolumeFunction = #myDynamics
   %\relative c'
    
-  {\repeat unfold \repeatTimes \melody}
+  {
+   \key c \major
+    \clef bass
+    \tempo 4=84
+  \repeat unfold \repeatTimes \melody}
 
 
   
