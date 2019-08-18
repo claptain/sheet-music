@@ -28,13 +28,13 @@ c'8 c' c' c' ~ c'4 r8 e|
 %2019/08/14 w33/3 3:45am
 metronome = \drummode{
  crashcymbal4 hh hh hh |
- hh hh hh hh |
  sn hh hh hh |
- hh hh hh hh |
+ sn hh hh hh |
+ sn hh hh hh |
  cymc hh hh hh |
- hh hh hh hh |
  sn hh hh hh |
- hh hh hh hh |
+ sn hh hh hh |
+ sn hh hh hh |
  %hh hh hh hh |
 
 
