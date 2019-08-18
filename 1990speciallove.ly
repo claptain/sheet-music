@@ -4,6 +4,9 @@
 }
 \language english
 
+repeatTimes = 1
+%60s/84 beats * 9 bars*4 beats per bar*10 times = 0.7 * 360
+
 %2019/08/14 w33/3 3:45am
 metronome = \drummode{
  crashcymbal hh hh hh |
@@ -256,8 +259,7 @@ brokenChord =  \transpose c c' {
       0.9
       (default-dynamic-absolute-volume dynamic)))
 
-repeatTimes = 1
-%60s/84 beats * 9 bars*4 beats per bar*10 times = 0.7 * 360
+
 
 \score {
   \new StaffGroup <<
