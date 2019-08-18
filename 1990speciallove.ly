@@ -7,7 +7,7 @@
 repeatTimes = 16
 %60s/84 beats * 9 bars*4 beats per bar*10 times = 0.7 * 360
 
-melody = {
+melody =  \transpose c c{
     \key c \major
     \clef bass
     \tempo 4=84
@@ -81,7 +81,7 @@ brokenChord =  \transpose c c' {
 
 
 
-  \transpose c c{ %as
+  %as
 
   %2019/08/15 w32/4 11:52am
   %\new Staff \with {midiInstrument = #"acoustic guitar (steel)"}
@@ -94,7 +94,7 @@ brokenChord =  \transpose c c' {
    \melody
 
 
-  }
+  
 
   \drums {\repeat unfold \repeatTimes \metronome}
   
