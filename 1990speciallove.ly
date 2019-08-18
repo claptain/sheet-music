@@ -308,7 +308,7 @@ brokenChord =  \transpose c c' {
     a4 g2.%~ | g1 |
      \break
 
-     %4
+     
 c'8 c' c' c' ~ c'4 r8 e|
     a g a g~ g4 
 
@@ -335,7 +335,7 @@ c'8 c' c' c' ~ c'4 r8 e|
     a4 g2.%~ | g1 |
      \break
 
-     %8
+     %4
 
      c'8 c' c' c' ~ c'4 r8 e|
     a g a g~ g4 
@@ -363,7 +363,143 @@ c'8 c' c' c' ~ c'4 r8 e|
     a4 g2.%~ | g1 |
      \break
 
+     
+c'8 c' c' c' ~ c'4 r8 e|
+    a g a g~ g4 
+
+    g8 g |
+    a4 c c8 c d c|
+    e g4 e8~ e4 r | \break
+
+    c'8 c' c' c' ~ c'4 r8 e| 
+    a g a g r g a g
+    a4 c' c'8 c' a g
+    a4 g2.%~ | g1 |
+     \break
+
+    c'8 c' c' c' ~ c'4 r8 e|
+    a g a g~ g4 
+
+    g8 g |
+    a4 c c8 c d c|
+    e g4 e8~ e4 r | \break
+
+    c'8 c' c' c' ~ c'4 r8 e| 
+    a g a g r g a g
+    a4 c' c'8 c' a g
+    a4 g2.%~ | g1 |
+     \break
+
+     c'8 c' c' c' ~ c'4 r8 e|
+    a g a g~ g4 
+
+    g8 g |
+    a4 c c8 c d c|
+    e g4 e8~ e4 r | \break
+
+    c'8 c' c' c' ~ c'4 r8 e| 
+    a g a g r g a g
+    a4 c' c'8 c' a g
+    a4 g2.%~ | g1 |
+     \break
+
+    c'8 c' c' c' ~ c'4 r8 e|
+    a g a g~ g4 
+
+    g8 g |
+    a4 c c8 c d c|
+    e g4 e8~ e4 r | \break
+
+    c'8 c' c' c' ~ c'4 r8 e| 
+    a g a g r g a g
+    a4 c' c'8 c' a g
+    a4 g2.%~ | g1 |
+     \break
+
+     %8
+   
+   c'8 c' c' c' ~ c'4 r8 e|
+    a g a g~ g4 
+
+    g8 g |
+    a4 c c8 c d c|
+    e g4 e8~ e4 r | \break
+
+    c'8 c' c' c' ~ c'4 r8 e| 
+    a g a g r g a g
+    a4 c' c'8 c' a g
+    a4 g2.%~ | g1 |
+     \break
+
+    c'8 c' c' c' ~ c'4 r8 e|
+    a g a g~ g4 
+
+    g8 g |
+    a4 c c8 c d c|
+    e g4 e8~ e4 r | \break
+
+    c'8 c' c' c' ~ c'4 r8 e| 
+    a g a g r g a g
+    a4 c' c'8 c' a g
+    a4 g2.%~ | g1 |
+     \break
+
+     
+c'8 c' c' c' ~ c'4 r8 e|
+    a g a g~ g4 
+
+    g8 g |
+    a4 c c8 c d c|
+    e g4 e8~ e4 r | \break
+
+    c'8 c' c' c' ~ c'4 r8 e| 
+    a g a g r g a g
+    a4 c' c'8 c' a g
+    a4 g2.%~ | g1 |
+     \break
+
+    c'8 c' c' c' ~ c'4 r8 e|
+    a g a g~ g4 
+
+    g8 g |
+    a4 c c8 c d c|
+    e g4 e8~ e4 r | \break
+
+    c'8 c' c' c' ~ c'4 r8 e| 
+    a g a g r g a g
+    a4 c' c'8 c' a g
+    a4 g2.%~ | g1 |
+     \break
+
      %4
+
+     c'8 c' c' c' ~ c'4 r8 e|
+    a g a g~ g4 
+
+    g8 g |
+    a4 c c8 c d c|
+    e g4 e8~ e4 r | \break
+
+    c'8 c' c' c' ~ c'4 r8 e| 
+    a g a g r g a g
+    a4 c' c'8 c' a g
+    a4 g2.%~ | g1 |
+     \break
+
+    c'8 c' c' c' ~ c'4 r8 e|
+    a g a g~ g4 
+
+    g8 g |
+    a4 c c8 c d c|
+    e g4 e8~ e4 r | \break
+
+    c'8 c' c' c' ~ c'4 r8 e| 
+    a g a g r g a g
+    a4 c' c'8 c' a g
+    a4 g2.%~ | g1 |
+     \break
+
+     
 c'8 c' c' c' ~ c'4 r8 e|
     a g a g~ g4 
 
@@ -417,7 +553,6 @@ c'8 c' c' c' ~ c'4 r8 e|
      \break
 
      %16
-   
 
     
     }
