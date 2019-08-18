@@ -7,6 +7,35 @@
 repeatTimes = 16
 %60s/84 beats * 9 bars*4 beats per bar*10 times = 0.7 * 360
 
+melody = {
+    \key c \major
+    \clef bass
+    \tempo 4=84
+    
+    
+    \repeat unfold \repeatTimes {
+    c'8 c' c' c' ~ c'4 r8 e|
+    a g a g~ g4 
+
+    g8 g |
+    a4 c c8 c d c|
+    e g4 e8~ e4 r | \break
+
+    c'8 c' c' c' ~ c'4 r8 e| 
+    a g a g r g a g
+    a4 c' c'8 c' a g
+    a4 g2.%~ | g1 |
+     \break
+
+  
+
+    
+    }
+
+
+    }
+
+
 %2019/08/14 w33/3 3:45am
 metronome = \drummode{
  crashcymbal hh hh hh |
@@ -61,34 +90,8 @@ brokenChord =  \transpose c c' {
 
  % \set Score.dynamicAbsoluteVolumeFunction = #myDynamics
   %\relative c'
-   {
-    \key c \major
-    \clef bass
-    \tempo 4=84
-    
-    
-    \repeat unfold \repeatTimes {
-    c'8 c' c' c' ~ c'4 r8 e|
-    a g a g~ g4 
-
-    g8 g |
-    a4 c c8 c d c|
-    e g4 e8~ e4 r | \break
-
-    c'8 c' c' c' ~ c'4 r8 e| 
-    a g a g r g a g
-    a4 c' c'8 c' a g
-    a4 g2.%~ | g1 |
-     \break
-
-  
-
-    
-    }
-
-
-    }
-
+   
+   \melody
 
 
   }
