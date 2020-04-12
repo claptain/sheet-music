@@ -19,7 +19,7 @@
 
     
       r r r 
-      \repeat unfold 18{ %
+      \repeat unfold 2{ %18
       fs'8 gs    
       as cs, fs as as4 
       
